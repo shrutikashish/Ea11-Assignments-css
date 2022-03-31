@@ -1,0 +1,47 @@
+h1{
+    color:#dd2b2b;
+}
+h2{
+    color:#dd2b2b; 
+}
+.start{
+    color:brown;
+    font-size: 18px;
+}
+.sum{
+    color: brown;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.linethrough{
+    color:brown;
+    font-weight: bold;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.background{
+    color:brown;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:yellow ;
+}
+.italic{
+    color:brown;
+    font-style: italic ;
+    font-size:20px;
+}
+
+a{
+    color:brown;
+    background-color: yellow;
+    font-style: italic;
+}
+.star{
+    color:brown;
+    font-size:18px;
+    letter-spacing: 5px;;
+}
+
+
+
+
