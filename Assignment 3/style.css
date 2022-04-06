@@ -128,6 +128,8 @@ button{
 }
 .txtAlgn{
     text-align: center;
+    font-weight:bold;
+    
 }
 .box1{
     display: flow-root;
