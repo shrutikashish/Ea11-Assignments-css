@@ -1,0 +1,151 @@
+body{
+    background-color: darkgray;
+}
+.box{
+    width: 450px;
+    height: 120px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    color: rgb(46 27 46);
+    line-height: 40px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    margin: auto;
+    box-shadow: 8px 8px;
+    text-shadow: 2px 2px 5px red;
+}
+.flexd{
+    width:200px;
+    height:200px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    color: rgb(46 27 46);
+    font-size:22px;
+    font-weight: bolder;
+    padding:25px;
+    line-height: 40px;
+    box-shadow: 5px 5px;
+    text-shadow: 2px 2px 3px purple;
+}
+.left-flexd {
+    float: left;
+    clear: left;
+}
+
+
+.right-flexd{
+    float: right;
+    clear: right;
+}
+
+.margin90PX{
+    margin-top: 90px;
+    width:200px;
+    height:200px;
+    background-color: white;
+    border: 8px solid red;
+    border-radius: 20px;
+    color:rgb(46 27 46);
+    font-size:22px;
+    font-weight: bolder;
+    padding: 20px;
+    line-height:30px ;
+    box-shadow: 5px 5px;
+    text-shadow: 2px 2px 3px purple;
+}
+.hack{
+    margin-top: 250px;
+    margin-left: 300px;
+    border: 7px solid red;
+    background-color: greenyellow;
+    width: 470px;
+    height:80px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #81007f ;
+    position: fixed;
+    text-align: center;
+    padding:20px;
+
+
+}
+
+form{
+    text-align: center;
+    
+}
+.section{
+    color:brown;
+    font-size: 25px;
+    font-style: italic;
+    display: inline;
+
+}
+
+button{
+      border:none;
+      border-radius: 50px;
+     background-color:red;
+     box-shadow: black 2px 2px;
+}
+
+.section  div{
+    width: 50%;
+}
+.outerBox{
+    border:7px solid green;
+    height: 675px;
+
+}
+.boxes{
+    border:8px solid purple;
+    background-color: green;
+    margin-left:250px;
+    margin-right: 250px;
+    height: 623px;
+    width: 725px;
+    margin-top: 20px
+}
+.box2{
+    width:350px;
+    height: 250px;;
+    border:4px solid yellowgreen;
+    background-color:#efef5f;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+
+
+ 
+
+
+}
+.txtAlgn{
+    text-align: center;
+}
+.box1{
+    display: flow-root;
+}
+
+.box3{
+    width: 735px;
+    margin-top: 15px;
+    height: 250px;
+    border:3px solid yellowgreen;
+    background-color:#efef5f;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+}
+
+.marginRight{
+    margin-right: 70px;
+}
