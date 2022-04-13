@@ -1,0 +1,155 @@
+body{
+    background-color: yellow;
+}
+
+.text1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.boxes{
+
+        width: 600px;
+        margin: auto;
+}
+ol {
+    padding-left: 1em;
+}
+ol li{
+    padding-left: 2em;
+    margin: 45px;
+}
+.box1 {
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color: rgba(4, 4, 172, 0.801);
+    margin-right: 20px;
+    animation: skew 3s linear infinite alternate;
+}
+
+@keyframes skew {
+    0%{
+    transform: skewX(30deg)
+    }
+    50%{
+    transform: skewX(-30deg)
+    }
+    100%{
+    transform: skewX(30deg)
+    }
+
+}
+.box2{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color: rgba(211, 12, 78, 0.836);
+    margin-right: 20px;
+    animation: sky 3s linear infinite alternate;
+
+}
+
+@keyframes sky {
+    0%{
+        transform: skewy(30deg);
+    }
+    50%{
+        transform:skewy(-30deg) ;
+    }
+    100%{
+        transform: skewY(30deg);
+    }
+}
+
+.box3{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:rgb(6, 20, 66);
+    margin-right: 20px;
+    animation: moon 3s ease-in-out infinite ;
+
+}
+@keyframes moon{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform:rotate(180deg) ;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+
+
+}
+.box4{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:red;
+    margin-right: 20px;
+    animation: rotat 4s infinite;
+}
+
+@keyframes rotat{
+    0%{
+        transform: scaley(1);
+    }
+    50%{
+        transform: scaley(0.5);
+    }
+    100%{
+        transform: scaley(1);
+    }
+}
+.box5{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:rgba(7, 223, 223, 0.945);
+    margin-right: 20px;
+    animation: anim 4s infinite;
+}
+@keyframes anim{
+    0%{
+        transform: scalex(1);
+    }
+    50%{
+        transform: scalex(0.5);
+    }
+    100%{
+        transform: scalex(1);
+    }
+}
+.box6{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    background-color:rgb(11, 148, 102);
+    margin-right: 20px;
+    animation: star 4s ease-in-out alternate infinite ; 
+}
+@keyframes star{
+    0%{
+       transform:rotate(0deg);
+    }
+    50%{
+        transform:rotate(180deg);
+    }
+    180%{
+        transform:rotate(360deg) ;
+    }
+}
+    
+.text2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: rgb(20, 20, 58);
+}
