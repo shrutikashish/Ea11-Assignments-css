@@ -1,0 +1,207 @@
+.container{
+    background-image: url("shara desert.jpg");
+    background-repeat: repeat-y;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.rightSide {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+
+.logo{
+    padding: 16px;
+    margin-left: 37px;
+    
+}
+
+.rightSide div {
+    padding: 20px;
+    color: white;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color:white;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 25% 25%;
+    gap:20px;
+    margin-left: 50px;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    gap:20px;
+}
+
+.grid-item1{
+    background-image: url('./pic-1.png');
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.grid-item2{
+    background-image: url('./pic-2.png');
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.grid-item3{
+    background-image: url('./pic-3.png');
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.grid-item4{
+    background-image: url('./pic-4.png');
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.bottom1:hover{
+    position: relative;
+    bottom: 10px;
+}
+
+.p1{
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    margin: 10px;
+}
+
+.p2{
+    font-size: large;
+    font-weight: normal;
+    color: white;
+    margin: 10px;
+}
+
+.explore{
+    border-radius: 88px;
+    padding: 8px;
+    font-size: 15px;
+    display: inline-block;
+    background-color: white;
+    width: 175px;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.sahara{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+.saharaHeader{
+    margin-top: 75px;
+}
+@media screen and (min-width:600px) and (max-width:1200px) {
+    body {
+        margin: 0;;
+    }
+
+    .saharaHeader{
+        margin-top: 0px;
+    }
+    .sahara{
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+    }
+    .grid-container{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        margin-left: 60px;
+    }
+
+    .grid-container1{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .grid-item1 {
+        width: 480px;
+    }
+    .grid-item2 {
+        width: 480px;
+    }
+    .grid-item3 {
+        width: 480px;
+    }
+    .grid-item4 {
+        width: 480px;
+    }
+    .bottom1:hover{
+        position: relative;
+        bottom: 10px;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    body {
+        margin: 0;;
+    }
+
+    .saharaHeader{
+        margin-top: 0px;
+    }
+    .sahara{
+        font-size: 35px;
+        color: white;
+        font-weight: bold;
+    }
+    .grid-container{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        margin-left: 60px;
+    }
+
+    .grid-container1{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .grid-item1 {
+        width: 280px;
+    }
+    .grid-item2 {
+        width: 280px;
+    }
+    .grid-item3 {
+        width: 280px;
+    }
+    .grid-item4 {
+        width: 280px;
+    }
+    .bottom1:hover{
+        position: relative;
+        bottom: 10px;
+    }
+}
